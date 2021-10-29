@@ -1,4 +1,9 @@
 //
+M591 D0 P7 C"e0_stop" S1 R80:120 L6.2 E18.6
+//
+M591 D0
+Pulse-type filament monitor on pin e0stop, enabled, sensitivity 6.200mm/pulse, allowed movement 80% to 120%, check every 18.6mm, measured sensitivity 6.252mm/pulse, measured minimum 96%, maximum 102% over 33984.9mm
+//
 M591 D0 P7 C"e0stop" L7 R50:200 E15 S0 ; M591: Configure BTT Smart Filament Sensor
 //
 
